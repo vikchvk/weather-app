@@ -25,10 +25,9 @@ body {
 
 }
 button{
-  
-  color:rgb(82, 77, 77);
+  display: block;
   border:0.5px solid transparent;
-  border-radius: 60px;
+  border-radius: 100px;
   background-color: transparent;
 }
 
