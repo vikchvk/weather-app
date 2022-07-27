@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 .search-form {
-  display: flex;
+  display: block;
   justify-content: space-between;
   border: 0.8px solid rgb(90, 87, 87);
   border-radius: 100px;
