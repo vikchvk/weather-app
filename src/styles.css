@@ -16,14 +16,13 @@ body {
   margin: 0;
   width: 100%;
 }
-.search-form {
+.search-bar {
   display: block;
-  margin: 0 auto;
-  width: 200px;
   justify-content: space-between;
   border: 0.8px solid rgb(90, 87, 87);
   border-radius: 100px;
   margin-bottom: 5px;
+
 }
 
 h3,
