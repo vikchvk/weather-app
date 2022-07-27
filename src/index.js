@@ -32,5 +32,5 @@ function showCity(event) {
   axios.get(apiUrl).then(showWeather);
 }
 
-let citySearch = document.querySelector("#search-bar");
-citySearch.addEventListener("submit", showCity);
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", showCity);
