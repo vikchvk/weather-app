@@ -18,8 +18,8 @@ body {
 }
 .search-bar {
   display: block;
-  margin: 0 auto;
-  border: 0.8px solid rgb(90, 87, 87);
+  justify-content: space-between;
+  border: 0.8px solid;
   border-radius: 100px;
   margin-bottom: 5px;
 
