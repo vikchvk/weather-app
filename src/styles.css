@@ -1,8 +1,5 @@
 
 .weather-app {
-  max-width: 600px;
-  height: 700px;
-  margin: 10px auto;
   background-size: cover;
   background-image: url(images/background.jpg);
   background-repeat: no-repeat;
