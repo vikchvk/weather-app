@@ -18,6 +18,8 @@ body {
 }
 .search-form {
   display: block;
+  margin: 0 auto;
+  width: 200px;
   justify-content: space-between;
   border: 0.8px solid rgb(90, 87, 87);
   border-radius: 100px;
