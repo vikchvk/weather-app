@@ -15,6 +15,13 @@ body {
   margin: 0;
   width: 100%;
 }
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  border: 0.8px solid rgb(90, 87, 87);
+  border-radius: 100px;
+  margin-bottom: 5px;
+}
 
 h3,
 h5,
