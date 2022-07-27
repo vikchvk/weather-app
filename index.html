@@ -3,9 +3,8 @@
   <head>
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="src/styles.css" />
+    <link href="src/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://kit.fontawesome.com/cbf78f61b2.js" crossorigin="anonymous" src="src/index.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link
     rel="stylesheet"
@@ -18,16 +17,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
   <body>
-     <div class="weather-app">
-    <div class="container">
-     <div id="search-form" class="search-form">
-          <form class = "search-bar" id="search-bar">
-          <input  id="city-input"  class="city-input" type="text", placeholder="Enter your city" autofocus="on" autocomplete="off" class="form-control shadow-sm" /> 
-          <button id="search-button" class="search-button">
-            <i class="fa-solid fa-magnifying-glass"></i>
-         </button>
+    <form id="search-form">
+        <input type="text" 
+        placeholder="Search a city" 
+        autocomplete="off" 
+        autofocus = "on" 
+        id="search-city-input"/>
+        <input type="submit" value="Search"/>
         </form>
- 
+    <div class="weather-app">
+    <div class="container">
   
         <div class="form-group">
   
@@ -113,15 +112,14 @@
                               </div>
                             </div>
                           </div>
-              </div>
-<small class="coder">
+              <small class="coder">
 <a  href="https://github.com/vikchvk/weather-app"  target="blank">Open source code</a>
 by Viktoriia Chvykova
-   
+    <div class="footer">Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </div>
   </div>
       </small>
     <script src="src/index.js"></script>
   </div>
   </body>
 </html>
-
