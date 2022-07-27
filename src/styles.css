@@ -2,7 +2,7 @@
 .weather-app {
   max-width: 400px;
   margin:10px auto;
-  background-image: url("images/background.jpg");
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
   background-size: 400px;
   padding: 8px;
   border: 1px solid rgb(219, 216, 216);
