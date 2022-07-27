@@ -1,0 +1,52 @@
+.weather-app {
+  max-width: 600px;
+  height: 700px;
+  margin: 10px auto;
+  background-size: cover;
+  padding: 8px;
+  border: 1px solid rgb(219, 216, 216);
+  border-radius: 10px;
+  background-image: url("images/annie-spratt1.jpg");
+  background-repeat: no-repeat;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin: 0;
+  width: 100%;
+}
+
+h3,
+h5,
+p {
+  text-align: center;
+  margin: 10px auto 0 auto;
+  font-weight: 900;
+  font-size: 26px;
+}
+.cloud-sun {
+  width: 100px;
+  height: 100px;
+}
+.location {
+  text-align: left;
+  margin: 20px auto 0 auto;
+  font-size: 22px;
+}
+h1 {
+  text-align: left;
+  position: relative;
+  margin: 10px auto 0 auto;
+  font-size: 56px;
+  color: #004a2f;
+}
+.row {
+  font-size: 12px;
+  text-align: center;
+  background-color: transparent;
+}
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+}
