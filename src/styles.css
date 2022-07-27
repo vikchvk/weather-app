@@ -18,7 +18,7 @@ body {
 }
 .search-bar {
   display: block;
-  justify-content: space-between;
+  margin: 0 auto;
   border: 0.8px solid rgb(90, 87, 87);
   border-radius: 100px;
   margin-bottom: 5px;
