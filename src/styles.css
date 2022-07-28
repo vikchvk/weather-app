@@ -15,7 +15,10 @@ body {
   margin: 0;
   width: 100%;
 }
-
+.search-form {
+  display: block;
+  margin: 20px 0;
+  position: fixed;
 h3,
 h5,
 p {
